@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import random
 
 def draw_fig(data, labels, center):
     # 清除原有图像
@@ -55,6 +56,7 @@ if __name__ == "__main__":
     # 关闭交互模式
     plt.ioff()
     plt.show()
+
 
 
 
